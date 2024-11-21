@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>javscript maps</h2>
+    <p id="demo"></p>
+    <script>
+        const fruit=new Map([
+            ["banana",100],
+            ["apple",150],
+            ["cherry",200]
+        ]);
+
+        let  num=fruit.get("banana");
+        document.getElementById("demo").innerHTML="there are"+num +"bananas";
+    </script>
+    
+</body>
+</html>
